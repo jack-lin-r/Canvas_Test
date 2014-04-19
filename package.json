@@ -1,0 +1,11 @@
+{
+	"name": "umati",
+	"version": "0.0.1",
+	"description": "This is umati project in node",
+	"dependencies": {
+		"socket.io": "~0.9.16",
+		"express": "~3.4.8",
+		"mongoose": "~3.8.6",
+		"bcrypt": "~0.7.7"
+	}
+}

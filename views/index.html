@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas</title>
+    
+  </head>
+
+  <body>
+
+
+
+    
+    <div id="canvasDiv">
+       
+    </div>
+
+    <script type="text/javascript">
+      var canvasDiv = document.getElementById('canvasDiv');
+      canvas = document.createElement('canvas');
+      canvas.setAttribute('width', 490);
+      canvas.setAttribute('height', 220);
+      canvas.setAttribute('id', 'canvas');
+      canvasDiv.appendChild(canvas);
+      if(typeof G_vmlCanvasManager != 'undefined') 
+      {
+      canvas = G_vmlCanvasManager.initElement(canvas);
+      }
+      context = canvas.getContext("2d");
+    </script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/js/canvas.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+
+  </body>
+
+
+</html>
